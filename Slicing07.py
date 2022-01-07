@@ -7,4 +7,7 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return
+    s1=len(s)
+    k=s1-n
+    return s[0:k]
+print(main("samsung",2))
